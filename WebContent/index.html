@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Temperature converter</title>
+</head>
+<body>
+	<h1>Temperature converter</h1>
+	<p>Insert temperature and unit to covert from</p>
+	<form action="MyServlet">
+		<input type="number" step="0.00001" value="0" name="temperature" required>
+		<select name="action">
+			<option value="celsius">C</option>
+			<option value="fahrenheit">F</option>
+		</select> <input type="submit" value="Calculate">
+	</form>
+</body>
+</html>
